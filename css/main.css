@@ -92,7 +92,7 @@ hr {
     z-index: 9999;
     display: block;
     position: fixed;
-    background: #54a50f;
+    background: linear-gradient(to bottom right, #04dead, #4b89ac);
     text-decoration: none;
     -moz-border-radius: 35px;
     -webkit-border-radius: 35px;
@@ -119,7 +119,7 @@ hr {
 }
 
 #return-to-top:hover {
-    background: #54a50f;
+    background: linear-gradient(to bottom right, #04dead, #4b89ac);
 }
 
 #return-to-top:hover i {
@@ -213,7 +213,7 @@ header .social-icons i {
     font-weight: 600;
     top: 0;
     width: 100%;
-    background: rgba(73, 160, 3, 0.94);
+    background: linear-gradient(to bottom right, #04dead, #4b89ac);
 }
 
 .sticky img {
@@ -284,7 +284,7 @@ header .social-icons i:hover {
 
 .sidenav a:hover,
 .sidenav .active {
-    color: #49a003;
+    color: #04dead;
 }
 
 .sidenav .closebtn {
@@ -501,9 +501,11 @@ header .border-img {
 }
 
 .banner-home .btn-success:hover {
-    color: #000000;
-    background-color: #ffffff;
-    border: 2px solid #ffffff;
+    background: linear-gradient(to bottom right, #04dead, #4b89ac);
+    color: #fff;
+    border: none;
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    border: none;
 }
 
 /*==================== 
@@ -533,7 +535,7 @@ header .border-img {
 }
 
 .about .heading h3 {
-    color: #f26522;
+    color: #ffd460;
     font-size: 30px;
     font-family: 'Old Standard TT', serif;
 }
@@ -541,6 +543,13 @@ header .border-img {
 .about .heading img {
     width: 80px;
     height: 80px
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 400;
+    color: #a3a3a3;
 }
 
 .circle {
@@ -637,7 +646,7 @@ header .border-img {
     width: 100%;
     height: auto;
     color: #ffffff;
-    background: #000;
+    background: #4b89ac;
     font-family: 'Old Standard TT', serif;
 }
 
@@ -684,15 +693,17 @@ header .border-img {
 }
 
 .section-4 .heading h3 {
-    color: #f7941d;
+    color: #ffd460;
     font-size: 30px;
     padding-bottom: 60px;
 }
 
 .section-4 p {
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 20px;
     padding-right: 660px;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .section-4 .btn-primary,
@@ -718,8 +729,8 @@ header .border-img {
 
 .section-4 .btn-secondary:not(:disabled):not(.disabled).active,
 .section-4 .btn-secondary:not(:disabled):not(.disabled).active:focus {
-    color: #ffff00;
-    border-color: #ffff00;
+    color: #ffd460;
+    border-color: #ffd460;
     box-shadow: none;
     background-color: transparent;
 }
@@ -735,7 +746,7 @@ header .border-img {
 .services {
     width: 100%;
     height: 690px;
-    background: #f2f2f2;
+    background: #fafafa;
     font-family: 'Old Standard TT', serif;
 }
 
@@ -774,21 +785,33 @@ header .border-img {
 .services h3 {
     font-size: 30px;
     padding-bottom: 20px;
+    color: #ffd460;
 }
 
 .services p {
-    font-size: 20px;
-    padding-bottom: 20px;
-    padding-right: 660px;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 400;
+    color: #a3a3a3;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .services a {
-    color: #000000;
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 400;
+    color: #4b4b4b;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .services .fa {
-    color: #00a651;
+    color: #04dead;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.services .fas {
+    color: #04dead;
     font-size: 18px;
     margin-right: 10px;
 }
@@ -810,6 +833,15 @@ header .border-img {
 
 .services .fa {
     color: #00a651;
+    font-size: 18px;
+    margin-right: 10px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.services .fas {
+    color: #04dead;
     font-size: 18px;
     margin-right: 10px;
     float: left;
@@ -865,7 +897,9 @@ header .border-img {
 }
 
 .blog .heading h3 {
+    color: #ffd460;
     font-size: 30px;
+
 }
 
 .blog .heading img {
@@ -923,16 +957,15 @@ header .border-img {
     font-weight: 600;
     border-radius: 100px;
     text-transform: uppercase;
-    background-color: transparent;
-    color: #000000;
-    border: 1px solid #b6b6b7;
+    background: linear-gradient(to bottom right, #04dead, #4b89ac);
+    color: #fff;
+    border: 1px solid white;
     font-family: 'Montserrat', sans-serif;
 }
 
 .blog .button .btn-success:hover {
-    color: #ffffff;
-    background-color: #b6b6b7;
-    border: 1px solid #b6b6b7;
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    border: none;
 }
 
 /*=== Blog-page Styles ===*/
@@ -1033,6 +1066,8 @@ header .border-img {
     color: #ffffff;
     background-color: #b6b6b7;
     border: 2px solid #b6b6b7;
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    border: none;
 }
 
 
@@ -1065,7 +1100,7 @@ header .border-img {
 }
 
 .contact address span {
-    color: #49a003;
+    color: #04dead;
     font-weight: 600;
 }
 
@@ -1162,7 +1197,7 @@ header .border-img {
 }
 
 .copyright p a {
-    color: #f5f500;
+    color: #ffd460;
 }
 
 .copyright p {
@@ -1248,6 +1283,24 @@ header .border-img {
     object-fit: cover;
 }
 
+.about .button .btn-success {
+    font-size: 22px;
+    padding: 10px 40px;
+    margin: 30px 0;
+    font-weight: 600;
+    border-radius: 100px;
+    text-transform: uppercase;
+    background: linear-gradient(to bottom right, #04dead, #4b89ac);
+    color: #fff;
+    border: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about .button .btn-success:hover {
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    border: none;
+}
+
 /*========================
       Services-Page
 =========================*/
@@ -1278,7 +1331,7 @@ header .border-img {
 }
 
 #services .fa-envira {
-    color: #54a50f;
+    color: #04dead;
     font-size: 25px;
     margin-right: 10px;
 }
@@ -1354,7 +1407,7 @@ header .border-img {
 }
 
 #products .fa-envira {
-    color: #54a50f;
+    color: #04dead;
     font-size: 25px;
     margin-right: 10px;
 }
@@ -1430,7 +1483,7 @@ header .border-img {
 }
 
 #rates .fa-envira {
-    color: #54a50f;
+    color: #04dead;
     font-size: 25px;
     margin-right: 10px;
 }
@@ -1825,6 +1878,8 @@ header .border-img {
     color: #ffffff;
     background-color: #b6b6b7;
     border: 2px solid #b6b6b7;
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    border: none;
 }
 
 @media(max-width:1440px) {
@@ -2266,6 +2321,9 @@ header .border-img {
         font-size: 17px;
     }
     .services .fa {
+        padding-top: 5px;
+    }
+    .services .fas {
         padding-top: 5px;
     }
     .services h3 {
