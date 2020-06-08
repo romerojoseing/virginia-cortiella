@@ -1999,10 +1999,10 @@ header .border-img {
         letter-spacing: 2px;
     }
     nav img {
-        width: 50%;
+        width: 150%;
     }
     .sticky img {
-        width: 34%;
+        width: 150%;
         padding: 10px 0;
     }
     header .social-icons i {
@@ -2582,7 +2582,7 @@ header .border-img {
 
 @media(max-width:425px) {
     nav img {
-        width: 30%;
+        width: 150%;
     }
     .banner-home {
         height: 450px;
