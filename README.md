@@ -1,6 +1,6 @@
 # Website: Romero José
 
-_Website designed to show my profile as a Web Developer, within this you will find information about who I am, my latest projects and all my contact details._
+_Website designed to show my profile as a Web Developer, within this you will find information about who I am, my latest projects and all my contact detail._
 
 ## [Try the live demo](https://romerojose.com/) ⚡
 ![Thumbnail](https://github.com/romerojoseing/archivos/blob/master/img/romero.png?raw=true)
