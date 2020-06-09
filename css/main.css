@@ -1007,7 +1007,9 @@ header .border-img {
 }
 
 .blog-page .heading h3 {
+    color: #ffd460;
     font-size: 30px;
+
 }
 
 .blog-page .heading img {
@@ -1057,16 +1059,13 @@ header .border-img {
     font-weight: 600;
     border-radius: 100px;
     text-transform: uppercase;
-    background-color: transparent;
-    color: #cccccc;
-    border: 2px solid #b6b6b7;
+    background: linear-gradient(to bottom right, #04dead, #4b89ac);
+    color: #fff;
+    border: 1px solid white;
     font-family: 'Montserrat', sans-serif;
 }
 
 .blog-page .button .btn-success:hover {
-    color: #ffffff;
-    background-color: #b6b6b7;
-    border: 2px solid #b6b6b7;
     box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
     border: none;
 }
@@ -1311,6 +1310,12 @@ header .border-img {
     padding-bottom: 200px;
     position: relative;
     font-family: 'Old Standard TT', serif;
+}
+
+#services .fas {
+    color: #04dead;
+    font-size: 18px;
+    margin-right: 10px;
 }
 
 #services .part-1,
