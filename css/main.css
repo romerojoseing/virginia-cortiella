@@ -702,7 +702,7 @@ header .border-img {
 .section-4 p {
     font-size: 18px;
     padding-bottom: 20px;
-    padding-right: 660px;
+    padding-right: 100px;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -710,7 +710,7 @@ header .border-img {
 .section-4 .btn-primary,
 .section-4 .btn-secondary {
     border-radius: 100px;
-    width: 11%;
+    width: 22%;
     padding: 12px 0;
     font-size: 18px;
     font-weight: 500;
@@ -1883,13 +1883,13 @@ header .border-img {
     border: none;
 }
 
-@media(max-width:1440px) {
+@media(max-width:1640px) {
     .banner-home {
         height: 680px;
         padding-top: 120px;
     }
     .section-4 figure img {
-        height: 850px;
+        height: 800px;
     }
     .services .gradient {
         width: 92%;
