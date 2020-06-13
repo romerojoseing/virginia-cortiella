@@ -1,9 +1,9 @@
-# Website: Romero José
+# Website: Virginia Cortiella
 
-_Website designed to show my profile as a Web Developer, within this you will find information about who I am, my latest projects and all my contact detail._
+_This web is dedicated to display the content of Virginia Cortiella coach motivational and admin of enterprises._
 
-## [Try the live demo](https://romerojose.com/) ⚡
-![Thumbnail](https://github.com/romerojoseing/archivos/blob/master/img/romero.png?raw=true)
+## [Try the live demo](https://romerojoseing.github.io/virginia-cortiella/) ⚡
+![Thumbnail](https://github.com/romerojoseing/archivos/blob/master/img/virginia-cortiella.jpg?raw=true)
 
 <br>
 
@@ -28,7 +28,7 @@ Any browser to open the project.
 _To use this project you will need to clone this repository or download it to your computer. If you choose to download it directly in the upper right part of the repository you will have the option, if it is not your case you can clone it using the following command._
 
 ```ssh
-  $ git clone https://github.com/romerojoseing/test.git
+  $ git clone https://github.com/romerojoseing/virginia-cortiella.git
 ```
 
 <br>
